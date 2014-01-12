@@ -2,4 +2,4 @@
 
 You can watch info about me
 
-(mendozagioo.github.io)[http://mendozagioo.github.io]
+[mendozagioo.github.io](http://mendozagioo.github.io)
