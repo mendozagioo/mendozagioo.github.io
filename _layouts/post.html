@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="blog post">
+  <h1>{{ page.title }}</h1>
+  <span class="meta">{{ page.date | date_to_string }}</span>
+
+  {{ content }}
+
+  <a class="button" href="/blog.html">Go blog</a>
 </div>

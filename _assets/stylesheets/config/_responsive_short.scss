@@ -1,0 +1,20 @@
+// Responsive short
+
+@media screen and (max-width: 767px) {
+  .container { width: 90%; }
+
+  #me { width: 90%; }
+
+  #info {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .me-me { width: 100%; }
+
+  .me-name {
+    font-size: 1.5em;
+  }
+
+  .me-separator { display: none; }
+}
