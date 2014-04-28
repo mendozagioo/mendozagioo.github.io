@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hablando un poco sobre las nuevas interfaces de usuario (GUI)"
+title:  "Hablando un poco sobre las nuevas interfaces gráficas de usuario (GUI)"
 date:   2012-11-21 08:51:24
 categories: blog
 ---
