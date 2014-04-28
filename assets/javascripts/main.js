@@ -18,6 +18,13 @@ $(document).ready(function() {
 
     if (width < 768) {
       $('.links').css('margin-top', infoMobileTop);
+
+      if(location.indexOf("/blog") > -1) {
+        $('#me').css('display', 'none');
+      }
+      if(location == "/about-me.html") {
+        $('#me').css('display', 'none');
+      }
     }
 
     //if(location.indexOf("/blog") > -1) {
