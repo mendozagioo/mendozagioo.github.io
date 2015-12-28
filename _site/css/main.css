@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  line-height: 1.250em;
+  font: 1.1rem "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+  background-color: #fff; }
+
+article,
+aside,
+details,
+div,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: table;
+  position: relative;
+  width: 100%; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none; }
+
+a {
+  color: #7cddc6;
+  text-decoration: none; }
+  a:hover {
+    color: #5ebfa8;
+    text-decoration: underline; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ea4468;
+  margin-bottom: 1.1rem; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p {
+  margin-bottom: 1rem; }
+
+ul {
+  list-style: none; }
+
+[class*="centered"] {
+  text-align: center; }
+
+.col {
+  float: left; }
+
+#home {
+  margin: 3rem 0; }
+  #home .picture img {
+    width: 100%; }
+  #home .social a {
+    display: table;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.7rem;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease; }
+    #home .social a:hover {
+      text-decoration: none;
+      color: #fff;
+      background-color: #7cddc6; }
+    #home .social a i {
+      line-height: 2.1;
+      font-size: 1.4rem; }
+
+@media (min-width: 1200px) {
+  #home {
+    width: 80%; }
+    #home .picture {
+      width: 35%; }
+    #home .info {
+      width: 65%;
+      padding-left: 2rem; } }
+@media (min-width: 545px) and (max-width: 1199px) {
+  #home {
+    width: 90%; }
+    #home .picture {
+      width: 40%; }
+    #home .info {
+      width: 60%;
+      padding-left: 3rem; } }
+@media (max-width: 544px) {
+  #home {
+    width: 100%; }
+    #home .picture {
+      width: 80%; }
+    #home .info {
+      width: 90%;
+      padding-left: 2rem; } }

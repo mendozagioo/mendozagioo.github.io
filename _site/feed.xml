@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giovanni Mendoza</title>
+    <description>Hello, this is Giovanni Mendoza, a front-end developer based in Colima
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Dec 2015 22:44:14 -0600</pubDate>
+    <lastBuildDate>Sun, 27 Dec 2015 22:44:14 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+  </channel>
+</rss>

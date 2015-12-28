@@ -1,0 +1,47 @@
+//
+// UI/REBOOT
+// --------------------------------------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  line-height: 1.250em;
+  font: 1.1rem "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $text-color;
+  background-color: $clear;
+}
+
+article,
+aside,
+details,
+div,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
