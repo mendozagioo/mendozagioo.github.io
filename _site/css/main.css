@@ -105,7 +105,7 @@ ul {
 
 @media (min-width: 1200px) {
   #home {
-    width: 80%; }
+    width: 55rem; }
     #home .picture {
       width: 35%; }
     #home .info {
