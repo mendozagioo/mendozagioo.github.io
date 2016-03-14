@@ -30,9 +30,11 @@ header,
 hgroup,
 nav,
 section {
-  display: table;
+  display: block;
+  overflow: hidden;
   position: relative;
   width: 100%;
+  box-sizing: border-box;
 }
 
 audio,

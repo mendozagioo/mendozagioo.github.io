@@ -1,0 +1,94 @@
+// Grid
+
+
+.center-col {
+  margin: 0 auto;
+  text-align: center;
+
+  > div {
+    float: left;
+  }
+}
+
+.name {
+  h1 { margin-bottom: .5rem; }
+  h3 { margin: 0; }
+}
+
+.description {
+  color: $clear;
+  background: rgba(77,142,247,1);
+  background: -moz-linear-gradient(left, rgba(77,142,247,1) 0%, rgba(55,209,153,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,142,247,1)), color-stop(100%, rgba(55,209,153,1)));
+  background: -webkit-linear-gradient(left, rgba(77,142,247,1) 0%, rgba(55,209,153,1) 100%);
+  background: -o-linear-gradient(left, rgba(77,142,247,1) 0%, rgba(55,209,153,1) 100%);
+  background: -ms-linear-gradient(left, rgba(77,142,247,1) 0%, rgba(55,209,153,1) 100%);
+  background: linear-gradient(to right, rgba(77,142,247,1) 0%, rgba(55,209,153,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d8ef7', endColorstr='#37d199', GradientType=1 );
+
+  .center-col {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (min-width: 801px) {
+  .center-col {
+    width: 800px;
+  }
+
+  .picture {
+    width: 40%;
+    text-align: right;
+    padding-right: 1.3rem;
+  }
+
+  .name {
+    width: 60%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .center-col {
+    width: 100%;
+  }
+
+  .picture {
+    width: 40%;
+    text-align: right;
+    padding-right: 1.3rem;
+  }
+
+  .name {
+    width: 60%;
+    text-align: left;
+  }
+
+  .description {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .center-col {
+    width: 100%;
+  }
+
+  .picture {
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .description {
+    padding: 0 2rem;
+  }
+}
