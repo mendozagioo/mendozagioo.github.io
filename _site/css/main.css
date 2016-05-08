@@ -148,18 +148,22 @@ ul {
 .header {
   padding: 3em 0 1rem; }
 
-.social a {
+#social a {
+  position: relative;
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  right: -400px;
   margin-right: 0.7rem;
   text-align: center;
   border-radius: 50%;
   transition: all 0.3s ease; }
-  .social a:hover {
+  #social a:hover {
     text-decoration: none;
     color: #fff;
     background-color: #7cddc6; }
-  .social a i {
+  #social a i {
     line-height: 2.1;
     font-size: 1.4rem; }
+  #social a.move {
+    right: -100px; }
