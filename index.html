@@ -7,19 +7,19 @@ layout: default
     <img src="images/giovanni.png">
   </div>
   <div class="name">
-    <h3>Hello, I am</h3>
-    <h1>Giovanni Mendoza</h1>
+    <h3>{{site.greeting}}</h3>
+    <h1>{{site.name}}</h1>
     <div id="social">
-      <a href="http://www.facebook.com/MendozaGioo" target="_blank">
+      <a href="{{site.facebook_link}}" target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
-      <a href="http://twitter.com/mendozagioo" target="_blank">
+      <a href="{{site.twitter_link}}" target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
-      <a href="http://github.com/mendozagioo" target="_blank">
+      <a href="{{site.github_link}}" target="_blank">
         <i class="fa fa-github-alt"></i>
       </a>
-      <a href="mailto:mendozagioo@gmail.com" target="_blank">
+      <a href="mailto:{{site.email}}" target="_blank">
         <i class="fa fa-envelope"></i>
       </a>
     </div>
@@ -28,24 +28,6 @@ layout: default
 
 <div class="description">
   <div class="center-col">
-    <p>
-      I am a front-end developer, based in Colima, father,
-      husband and technology lover.
-    </p>
-    <p>
-      My skills are based around front end technologies like
-      JavaScript, HTML5, CSS3. I enjoy working in projects where
-      my experience in cross-browser adjustments, responsive design
-      for mobile and web is required. What I enjoy the most is
-      creating a great UX and impacting the end user with my work
-    </p>
-    <p>
-      Currently I combine back-end and front-end to create interesting
-      mobile and web applications on frameworks like NodeJS,
-      AngularJS and Ionic
-    </p>
-    <p>
-      My hobbies are the web, music and general art.
-    </p>
+    <p>{{site.description}}</p>
   </div>
 </div>

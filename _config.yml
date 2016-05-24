@@ -3,10 +3,27 @@ title: Giovanni Mendoza
 email: mendozagioo@gmail.com
 nick: mendozagioo
 name: Giovanni Mendoza
-description: > # this means to ignore newlines until "baseurl:"
-  Hello, this is Giovanni Mendoza, a front-end developer based in Colima
+greeting: Hello, I am
+description: >
+  I am a front-end developer, based in Colima, México, father,
+  husband and technology lover.
+  <br><br>
+  My skills are based around front end technologies like
+  JavaScript, HTML5, CSS3. I enjoy working in projects where
+  my experience in cross-browser adjustments, responsive design
+  for mobile and web is required. What I enjoy the most is
+  creating a great UX and impacting the end user with my work.
+  <br><br>
+  Currently I combine back-end and front-end to create interesting
+  mobile and web applications on frameworks like NodeJS,
+  AngularJS and Ionic
+  <br><br>
+  My hobbies are the web, music and general art.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+facebook_link: http://facebook.com/MendozaGioo
+twitter_link: http://twitter.com/mendozagioo
+github_link: http://github.com/mendozagioo
 
 # Build settings
 markdown: kramdown
