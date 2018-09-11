@@ -4,11 +4,11 @@
     <title>Giovanni Mendoza</title>
     <description>I am a front-end developer, based in Colima, México, father, husband and technology lover. &lt;br&gt;&lt;br&gt; My skills are based around front end technologies like JavaScript, HTML5, CSS3. I enjoy working in projects where my experience in cross-browser adjustments, responsive design for mobile and web is required. What I enjoy the most is creating a great UX and impacting the end user with my work. &lt;br&gt;&lt;br&gt; Currently I combine back-end and front-end to create interesting mobile and web applications on frameworks like NodeJS, AngularJS and Ionic &lt;br&gt;&lt;br&gt; My hobbies are the web, music and general art.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Mar 2017 10:15:01 -0600</pubDate>
-    <lastBuildDate>Thu, 30 Mar 2017 10:15:01 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Sep 2018 13:53:54 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Sep 2018 13:53:54 -0500</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
     
   </channel>
 </rss>
