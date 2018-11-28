@@ -1,33 +1,32 @@
 // Grid
 
 
-.center-col {
-  margin: 0 auto;
-  text-align: center;
-
-  > div {
-    float: left;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.name {
-  h1 { margin-bottom: .5rem; }
-  h3 {
-    color: $text-color;
-    margin: 0;
-  }
+.picture,
+.description {
+  display: flex;
+  flex-direction: column;
 }
 
 .description {
   color: $text-color;
-
-  .center-col {
-    padding: 2rem 1rem;
-  }
 }
 
-@media (min-width: 801px) {
-  .center-col {
+.center-col {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 802px) {
+  .container {
+    flex-direction: row;
     width: 800px;
   }
 
@@ -37,53 +36,27 @@
     padding-right: 1.3rem;
   }
 
-  .name {
-    width: 60%;
-    text-align: left;
+  .description { width: 60%; }
+
+  .center-col {
+    padding: 2rem 1rem;
   }
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
-  .center-col {
+@media screen and (max-width: 801px) {
+  .picture,
+  .description {
     width: 100%;
+    text-align: center;
   }
 
   .picture {
-    width: 40%;
-    text-align: right;
-    padding-right: 1.3rem;
-  }
-
-  .name {
-    width: 60%;
-    text-align: left;
-  }
-
-  .description {
-    padding: 0 2rem;
+    width: 320px;
   }
 }
 
-@media (max-width: 600px) {
-  .center-col {
-    width: 100%;
-  }
-
+@media screen and (max-width: 340px) {
   .picture {
-    width: 100%;
-    text-align: center;
-  }
-
-  .name {
-    width: 100%;
-    text-align: center;
-  }
-
-  .social {
-    text-align: center;
-  }
-
-  .description {
-    padding: 0 2rem;
+    width: 80%;
   }
 }

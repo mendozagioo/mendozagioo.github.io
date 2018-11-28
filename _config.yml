@@ -5,20 +5,7 @@ nick: mendozagioo
 name: Giovanni Mendoza
 greeting: Hello, I am
 description: >
-  I am a front-end developer, based in Colima, México, father,
-  husband and technology lover.
-  <br><br>
-  My skills are based around front end technologies like
-  JavaScript, HTML5, CSS3. I enjoy working in projects where
-  my experience in cross-browser adjustments, responsive design
-  for mobile and web is required. What I enjoy the most is
-  creating a great UX and impacting the end user with my work.
-  <br><br>
-  Currently I combine back-end and front-end to create interesting
-  mobile and web applications on frameworks like NodeJS,
-  AngularJS and Ionic
-  <br><br>
-  My hobbies are the web, music and general art.
+  I am a front-end developer based in Colima, México, focus on web technologies (Javascript, HTML, CSS), UX/UI enthusiast, and creator of
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mendozagioo.me" # the base hostname & protocol for your site
 facebook_link: http://facebook.com/MendozaGioo

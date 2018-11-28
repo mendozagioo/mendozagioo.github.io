@@ -12,11 +12,14 @@
 
 html,
 body {
+  display: flex;
   width: 100%;
-  line-height: 1.250em;
-  font: 1.1rem "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  line-height: 1.4;
+  font-size: 1.1rem;
+  font-family: Monaco, Menlo, monospace;
   color: $text-color;
-  background-color: $clear;
+  background-color: $body-background;
 }
 
 article,
