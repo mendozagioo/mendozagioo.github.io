@@ -1,0 +1,30 @@
+---
+import Social from "../sections/social.astro";
+import Head from "../sections/head.astro";
+import "../_scss/app.scss";
+---
+
+<html lang="en">
+  <Head />
+  <body>
+    <div class="container">
+      <div class="picture">
+        <img src="./images/giovanni.png" alt="Giovanni Mendoza" />
+      </div>
+      <div class="description">
+        <div class="center-col">
+          <h1>Giovanni Mendoza.</h1>
+          <p>
+            I am a front-end developer based in Colima, México, focus on web
+            technologies (Javascript, HTML, CSS), UX/UI enthusiast, and creator
+            of
+            <a href="https://github.com/mendozagioo/cactu" target="_blank"
+              >Cactu</a
+            >.
+          </p>
+        </div>
+        <Social />
+      </div>
+    </div>
+  </body>
+</html>

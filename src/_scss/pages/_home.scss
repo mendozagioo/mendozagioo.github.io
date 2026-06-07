@@ -1,0 +1,61 @@
+.header {
+  padding: 3em 0 1rem;
+}
+
+@keyframes slideInSocial {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+#social {
+  display: flex;
+  padding-left: 0.3rem;
+
+  a {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    animation: slideInSocial 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    margin-right: 0.7rem;
+    text-align: center;
+    border-radius: 50%;
+
+    &:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 0.08s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 0.11s;
+    }
+
+    &:nth-child(4) {
+      animation-delay: 0.14s;
+    }
+
+    &:hover {
+      margin: -7px 0.7rem 0 0;
+    }
+
+    &.move {
+      right: -100px;
+    }
+
+    svg {
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 801px) {
+    justify-content: space-evenly;
+    padding-left: 0;
+  }
+}
