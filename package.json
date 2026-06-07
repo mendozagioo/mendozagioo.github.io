@@ -2,6 +2,7 @@
   "name": "mendozagioo.github.io",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@10.10.0",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -14,5 +15,8 @@
   "dependencies": {
     "astro": "^6.4.4",
     "sass": "^1.100.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@parcel/watcher", "esbuild", "sharp"]
   }
 }
